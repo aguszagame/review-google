@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+apscheduler
+sqlalchemy
+loguru
+python-dotenv
+fastapi-mail
+psycopg2-binary  # Solo si vas a usar PostgreSQL luego
