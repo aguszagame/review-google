@@ -4,7 +4,7 @@ import asyncio
 from app.database import init_db
 from app.scheduler import start_scheduler
 
-app = FastAPI()
+app = FastAPI(debug=True)
 
 @app.on_event("startup")
 async def startup_event():
